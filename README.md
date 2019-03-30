@@ -6,7 +6,6 @@ An Ubuntu Linux server instance on Amazon Lightsail that has been configured wit
 - SSH Server Port: 2200
 - Database Server Port: 5432
 
-
 # Web Application
 - Language: Python v2.7
 - Project Source: <a href="https://github.com/fkrishna/item-catalog">item catalog</a>
@@ -22,8 +21,9 @@ The server require Key Based Authentication for all user and listening on port 2
  
 # Database Server
 - PostgreSQL: An Object-Relational Database Management System for the Item Catalog Application. A user catalog was created with limited permissions and require authentication to the application database
- - Host: Localhost
- - Port: 5432
  - Username: catalog
  - Password: **********
  - Database Name: catalog
+ 
+ # Firewall
+ The UFW firewall was configured to allow incoming connection on port 80, 123 and 2200
