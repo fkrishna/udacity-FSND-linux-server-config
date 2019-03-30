@@ -1,10 +1,11 @@
 # Udacity FSND Linux Server Configuration
-An Ubuntu Linux server instance on Amazon Lightsail that has been configured with good security settings that runs a web server, an ssh server and a database server
+An Ubuntu Linux server instance on Amazon Lightsail that has been configured with good security settings that runs a web server, an ssh server and a database server. A grader user was created the ssh key for this user is located at <b>/home/grader/.ssh/authorized_keys</b>
 
 - IP Address: 35.182.168.140
 - Web Server Port: 80
 - SSH Server Port: 2200
 - Database Server Port: 5432
+
 
 # Web Application
 - Language: Python v2.7
